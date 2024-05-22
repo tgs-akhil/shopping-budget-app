@@ -1,0 +1,95 @@
+.pageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.tableContainer {
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  border-collapse: collapse;
+}
+
+.headerCell,
+.cell {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.headerCell {
+  background-color: #f4f4f4;
+}
+
+.addButton {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #000080;
+  color: white;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.removeButton {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #ff4d4d;
+  color: white;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.input {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.totalRow {
+  text-align: right;
+  font-weight: bold;
+}
+
+.totalCell {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.totalText {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: right;
+}
+
+.saveButton {
+  width: 100%;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: white;
+  font-size: 16px;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.saveButton:hover {
+  background-color: #45a049;
+}
+
+.saveCell {
+  text-align: center;
+  padding: 0;
+}
